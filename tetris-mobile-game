@@ -1,0 +1,7 @@
+git init # Git 로컬 저장소 초기화
+git add . # 모든 파일 스테이징
+git commit -m "Initial commit of basic project files" # 커밋
+git branch -M main # 브랜치 이름 'main'으로 변경
+# 'YOUR_GITHUB_USERNAME'와 'YOUR_REPO_NAME'을 실제 값으로 변경
+git remote add origin https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git 
+git push -u origin main # GitHub에 푸시
